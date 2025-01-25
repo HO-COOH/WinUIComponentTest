@@ -1,0 +1,12 @@
+namespace Component
+{
+    [bindable]
+    [default_interface]
+    runtimeclass MyRuntimeClass 
+    {
+        MyRuntimeClass();
+        String MyProperty{ get; };
+
+        static String MyStaticProperty{ get; };
+    }
+}
