@@ -7,4 +7,4 @@ This is a demo/starter project for testing consuming a C++/WinRT component in a 
 |Project|Working?|
 |--|--|
 |C# project| :x: |
-|C++ project| :question: |
+|C++ project| :white_check_mark: |

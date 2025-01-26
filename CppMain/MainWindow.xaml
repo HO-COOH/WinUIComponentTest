@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="CppMain.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CppMain"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:component="using:Component"
+    mc:Ignorable="d"
+    Title="CppMain">
+    
+    <Page>
+        <Page.Resources>
+            <component:MyRuntimeClass x:Name="ViewModel"/>
+        </Page.Resources>
+        <StackPanel>
+            <TextBlock Text="Xaml control"/>
+            <component:MyControl/>
+
+            <TextBlock Text="RuntimeClass property"/>
+            <TextBlock Text="{x:Bind ViewModel.MyProperty}"/>
+
+            <TextBlock Text="RuntimeClass static property"/>
+            <TextBlock Text="{x:Bind component:MyRuntimeClass.MyStaticProperty}"/>
+        </StackPanel>
+    </Page>
+</Window>
