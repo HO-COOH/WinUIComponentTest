@@ -41,7 +41,7 @@
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.6.250108002" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Component\Component.vcxproj" />
+    <ProjectReference Include="..\CSharpComponentProjection\CSharpComponentProjection.csproj" />
   </ItemGroup>
 
   <!--

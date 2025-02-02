@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppMain", "CppMain\CppMain.vcxproj", "{CC551520-A6E5-4912-A3E8-E4A284C3DCAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpComponentProjection", "CSharpComponentProjection\CSharpComponentProjection.csproj", "{AE76260F-FC92-4674-AA77-01C1603FED83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -72,6 +74,18 @@ Global
 		{CC551520-A6E5-4912-A3E8-E4A284C3DCAF}.Release|x86.ActiveCfg = Release|Win32
 		{CC551520-A6E5-4912-A3E8-E4A284C3DCAF}.Release|x86.Build.0 = Release|Win32
 		{CC551520-A6E5-4912-A3E8-E4A284C3DCAF}.Release|x86.Deploy.0 = Release|Win32
+		{AE76260F-FC92-4674-AA77-01C1603FED83}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{AE76260F-FC92-4674-AA77-01C1603FED83}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{AE76260F-FC92-4674-AA77-01C1603FED83}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AE76260F-FC92-4674-AA77-01C1603FED83}.Debug|x64.Build.0 = Debug|Any CPU
+		{AE76260F-FC92-4674-AA77-01C1603FED83}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AE76260F-FC92-4674-AA77-01C1603FED83}.Debug|x86.Build.0 = Debug|Any CPU
+		{AE76260F-FC92-4674-AA77-01C1603FED83}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{AE76260F-FC92-4674-AA77-01C1603FED83}.Release|ARM64.Build.0 = Release|Any CPU
+		{AE76260F-FC92-4674-AA77-01C1603FED83}.Release|x64.ActiveCfg = Release|Any CPU
+		{AE76260F-FC92-4674-AA77-01C1603FED83}.Release|x64.Build.0 = Release|Any CPU
+		{AE76260F-FC92-4674-AA77-01C1603FED83}.Release|x86.ActiveCfg = Release|Any CPU
+		{AE76260F-FC92-4674-AA77-01C1603FED83}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
